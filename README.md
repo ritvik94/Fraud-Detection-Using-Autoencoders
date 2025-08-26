@@ -17,7 +17,6 @@ The project uses the "Credit Card Fraud Detection" dataset, which can be found o
 # Methodology
 
 The anomaly detection process follows these key steps:
-
 1. **Data Exploration and Preprocessing**
   - Load Data: The creditcard.csv dataset is loaded into a pandas DataFrame.
   - Exploratory Data Analysis (EDA): The script analyzes the distribution of normal vs. fraudulent transactions and compares the statistical properties of the          Amount feature for both classes.
@@ -28,6 +27,7 @@ The anomaly detection process follows these key steps:
   - The test set retains both normal and fraudulent transactions to evaluate the model's ability to distinguish between them.
 
 3. **Autoencoder Model Architecture**
+
 A simple, dense autoencoder is constructed using Keras.
   - Encoder: Compresses the input data into a lower-dimensional latent space.
   - Input Layer: 30 neurons (matching the number of features).
