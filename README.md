@@ -28,14 +28,14 @@ The anomaly detection process follows these key steps:
 
 3. **Autoencoder Model Architecture**
 
-A simple, dense autoencoder is constructed using Keras.
+  A simple, dense autoencoder is constructed using Keras.
   - Encoder: Compresses the input data into a lower-dimensional latent space.
   - Input Layer: 30 neurons (matching the number of features).
   - Hidden Layers: Dense(18, activation="tanh"), Dense(10, activation="relu"), Dense(6, activation="tanh").
   - Decoder: Attempts to reconstruct the original input data from the compressed representation.
   - Hidden Layers: Dense(6, activation="relu"), Dense(10, activation="tanh").
   - Output Layer: Dense(30, activation="relu") to reconstruct the original 30 features.
-The model is compiled with the adam optimizer and mean_squared_error as the loss function.
+  The model is compiled with the adam optimizer and mean_squared_error as the loss function.
 
 
 # Results
