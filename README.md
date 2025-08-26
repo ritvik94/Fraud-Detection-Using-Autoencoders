@@ -16,7 +16,7 @@ The project uses the "Credit Card Fraud Detection" dataset, which can be found o
 
 # Results
 
-The Model has an Accuracy of **95.128**.
+The Model has an Accuracy of **"95.128"**.
 
 The scatter plot plot shows the reconstruction error:
 <img width="1005" height="547" alt="image" src="https://github.com/user-attachments/assets/93fccad0-e503-4812-94f8-dc61c20bd2c3" />
