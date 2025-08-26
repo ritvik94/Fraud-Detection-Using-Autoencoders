@@ -16,9 +16,13 @@ The project uses the "Credit Card Fraud Detection" dataset, which can be found o
 
 # Results
 
-The Model has an Accuracy of "95.12833116814718".
+The Model has an Accuracy of **95.128**.
 
 The scatter plot plot shows the reconstruction error:
 <img width="1005" height="547" alt="image" src="https://github.com/user-attachments/assets/93fccad0-e503-4812-94f8-dc61c20bd2c3" />
+
+The confusion matrix below shows the performance of the classification:
+<img width="531" height="470" alt="image" src="https://github.com/user-attachments/assets/73706677-5865-42cc-96af-a5acdd3fcd0c" />
+
 
 
